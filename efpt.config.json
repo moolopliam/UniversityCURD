@@ -1,0 +1,40 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "UniversityContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models\/Data",
+   "ProjectRootNamespace": "University",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[students]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[titel]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DESKTOP-JM51KU3.University",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

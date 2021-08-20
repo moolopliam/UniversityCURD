@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>University</name>
+    </assembly>
+    <members>
+        <member name="T:University.Controllers.StudentsController">
+            <summary>
+            จัดการข้อมูลนักศึกษา
+            </summary>
+        </member>
+        <member name="M:University.Controllers.StudentsController.GetStudents(System.Int32,System.Int32,System.String)">
+            <summary>
+            แสดงรายชื่อนักศึกษา
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:University.Controllers.StudentsController.SaveStudent(University.Models.Requests.StudentReq)">
+            <summary>
+             เพิ่มรายชื่อนักศึกษา
+            </summary>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:University.Controllers.StudentsController.EditStudent(System.String,University.Models.Requests.StudentReq)">
+            <summary>
+            แก้ไขข้อมูลนักศึกษา
+            </summary>
+            <param name="stdID"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:University.Controllers.StudentsController.DetailStudent(System.String)">
+            <summary>
+            แสดงรายละเอียดนักศึกษา
+            </summary>
+            <param name="stdID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:University.Controllers.StudentsController.RemoveStudent(System.String)">
+            <summary>
+            ลบข้อมูลนักศึกษา
+            </summary>
+            <param name="stdID"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
